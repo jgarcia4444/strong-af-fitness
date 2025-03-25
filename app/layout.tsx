@@ -29,10 +29,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="">
+        <div className="flex flex-row flex-nowrap">
           <Nav />
-          <div className="md:w-4/5 w-full">{children}</div>
-          
+          <div className="md:w-4/5 w-full px-16 py-8">{children}</div>
         </div>
       </body>
     </html>

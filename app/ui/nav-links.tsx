@@ -5,7 +5,6 @@ import clsx from "clsx";
 import { FiUser, FiBatteryCharging, FiActivity, FiMail } from "react-icons/fi";
 
 const NavLinks = () => {
-    
 
     const pathName: string = usePathname();
 

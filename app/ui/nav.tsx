@@ -5,7 +5,7 @@ import { FiHome } from "react-icons/fi";
 const Nav = () => {
 
     return (
-        <div className="flex md:w-1/5 md:h-screen md:bg-gray-800 md:flex-col md:items-center md:justify-center md:gap-24 w-full flex-row ">
+        <div className="flex h-screen md:w-1/5 md:h-screen md:bg-gray-800 md:flex-col md:items-center md:justify-center md:gap-24 w-full flex-row ">
             <Link className="" href="/">
                 <FiHome size={80} color="#0055cc" />
             </Link>
