@@ -31,7 +31,7 @@ export default function RootLayout({
       >
         <div className="flex flex-row flex-nowrap">
           <Nav />
-          <div className="md:w-4/5 w-full px-16 py-8">{children}</div>
+          <div className="md:w-4/5 w-full px-16 bg-slate-900">{children}</div>
         </div>
       </body>
     </html>
