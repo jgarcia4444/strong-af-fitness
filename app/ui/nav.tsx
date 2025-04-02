@@ -1,6 +1,8 @@
 import Link from "next/link";
 import NavLinks from '../ui/nav-links';
-import { FiHome } from "react-icons/fi";
+import { FiHome, FiInstagram } from "react-icons/fi";
+import { AiFillTikTok } from "react-icons/ai";
+
 
 const Nav = () => {
 
@@ -11,6 +13,14 @@ const Nav = () => {
             </Link>
             <div className="flex-col hidden md:flex md:gap-12">
                 <NavLinks />
+            </div>
+            <div className="w-full absolute bottom-12 flex flex-row justify-center gap-4">
+                <a target="_blank" href="https://www.instagram.com/breannagarciafitt?igsh=MTNmbXp1OGpidXh5bA==" className="">
+                    <FiInstagram size={24} color={'#fff'} />
+                </a>
+                <a target="_blank" href="https://www.tiktok.com/@breannagarciafitt?_t=ZT-8vBj2eca7mo&_r=1" className="">
+                    <AiFillTikTok size={24} color={'#fff'} />
+                </a>
             </div>
         </div>
     )
