@@ -10,8 +10,7 @@ const NavLinks = () => {
 
     const links = [
         {name: "About", to: "/about", icon: <FiUser size={24} />},
-        {name: "Training", to: "/training", icon: <FiBatteryCharging size={24}/>},
-        {name: "Get Started", to: "/get-started", icon: <FiActivity size={24} />},
+        {name: "Coaching", to: "/coaching", icon: <FiBatteryCharging size={24}/>},
         {name: "Contact", to: "/contact", icon: <FiMail size={24} />},
     ]
 

@@ -6,7 +6,7 @@ import Header from "./ui/home/header";
 export default function Home() {
   return (
     <div className="">
-      <div className="w-full h-screen flex flex-col py-8 justify-between">
+      <div className=" relative w-full h-screen flex flex-col py-8 justify-between items-center">
         <Banner />
         <Header />
       </div>
