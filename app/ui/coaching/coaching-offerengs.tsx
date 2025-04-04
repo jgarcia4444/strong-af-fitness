@@ -3,13 +3,15 @@ import OfferingCard from "./offering-card"
 const CoachingOfferings = () => {
 
     const offeringCards = [
-        {level: "Beginner", workoutsPerWeek: 3, includedFeatures: []},
-        {level: "Intermediate", workoutsPerWeek: 4, includedfeatures: []},
-        {level: "Advanced", workoutsPerWeek: 5, includedFeatures: []}
+        {level: "Beginner", workoutsPerWeek: 3, includedFeatures: ["General Nutrition"]},
+        {level: "Intermediate", workoutsPerWeek: 4, includedFeatures: ["Protein Intake", "Diet Instructions"]},
+        {level: "Advanced", workoutsPerWeek: 5, includedFeatures: ["Macro Nutrition Guidance", "Lifestyle Coaching"]}
     ]
 
     const renderOffereingCards = () => {
-        return offeringCards.map((card, i) => <OfferingCard key={`${i}-${card.level}`} cardInfo={card} />)
+        return offeringCards.map((card, i) => {
+            return <OfferingCard key={`${i}-${card.level}`} cardInfo={card} />
+        })
     }
 
     return (
