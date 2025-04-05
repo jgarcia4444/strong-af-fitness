@@ -21,10 +21,10 @@ const OfferingCard = (
 
     return (
         <div className="flex flex-col w-64">
-            <div className="w-full py-4 bg-slate-600 rounded-t-2xl">
-                <p className="text-center text-4xl font-bold">{level}</p>
+            <div className="w-full">
+                <h4 className="text-center text-4xl font-bold bg-linear-to-b from-slate-900 to-slate-800 pt-6 pb-4 rounded-t-2xl">{level}</h4>
             </div>
-            <div className="w-full flex flex-col rounded-b-2xl bg-slate-400 h-40 p-4">
+            <div className="w-full flex flex-col rounded-b-2xl bg-linear-to-b from-slate-600 to-slate-900 h-40 p-4">
                 <div className="">
                     Workouts Per Week: <span className="font-bold">{workoutsPerWeek}</span>
                 </div>
