@@ -57,7 +57,7 @@ const OfferingCard = (
             </div>
             <div className="w-full mt-2 relative">
                 {presentSelectionButton()}
-                <WorkoutTypeSelection show={showWorkoutType} />
+                <WorkoutTypeSelection level={level} show={showWorkoutType} />
             </div>
         </div>
     )
